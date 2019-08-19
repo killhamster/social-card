@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card {
+  width: 604px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: black;
+  margin: 10px;
+}
+
+.card-name {
+  font-size: 64px;
+  color: white;
+}
+
+.card-headline {
+  font-size: 2.25em;
+  display: flex;
+  justify-content: center;
+  color: white;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin: 5px;
+}
+
+.card-subhead {
+  font-size: 1.9em;
+  display: flex;
+  justify-content: center;
+  color: white;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin: 5px;
+}
+
+.card-body {
+  background-image: url("./background.png");
+  height: 250px;
+}
+
+.name-line {
+  height: 65px;
+  padding: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.butt-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 12px;
+  height: 40px;
+  width: 175px;
+  border-color: white;
+  border-width: 2px;
+  padding-top: 20px;
+}
+
+.social-head {
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.usericon {
+  height: 64px;
+  width: 64px;
+  padding: 1px;
+}
